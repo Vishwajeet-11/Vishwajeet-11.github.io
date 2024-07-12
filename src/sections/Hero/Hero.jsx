@@ -1,23 +1,23 @@
-import CV from '../../assets/cv.pdf';
-import githubDark from '../../assets/github-dark.svg';
-import githubLight from '../../assets/github-light.svg';
-import heroImg from '../../assets/hero-img1.png';
-import linkedinDark from '../../assets/linkedin-dark.svg';
-import linkedinLight from '../../assets/linkedin-light.svg';
-import moon from '../../assets/moon.svg';
-import sun from '../../assets/sun.svg';
+import CV from "../../assets/cv.pdf";
+import githubDark from "../../assets/github-dark.svg";
+import githubLight from "../../assets/github-light.svg";
+import heroImg from "../../assets/hero-img1.png";
+import linkedinDark from "../../assets/linkedin-dark.svg";
+import linkedinLight from "../../assets/linkedin-light.svg";
+import moon from "../../assets/moon.svg";
+import sun from "../../assets/sun.svg";
 // import twitterDark from '../../assets/twitter-dark.svg';
 // import twitterLight from '../../assets/twitter-light.svg';
-import { useTheme } from '../../common/ThemeContext';
-import styles from './HeroStyles.module.css';
+import { useTheme } from "../../common/ThemeContext";
+import styles from "./HeroStyles.module.css";
 
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
+  const themeIcon = theme === "light" ? sun : moon;
   // const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -53,7 +53,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion for developing modern optimized and robust backend servers.
+          Backend developer adept in AWS, API design, database management, and
+          server-side logic. Delivering scalable solutions for web applications.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
