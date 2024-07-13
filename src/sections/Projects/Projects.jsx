@@ -18,7 +18,7 @@ function Projects() {
         />
         <ProjectCard
           src={rtc}
-          link="https://github.com/Vishwajeet-11/websocket_chat_application"
+          link="https://github.com/Vishwajeet-11/collaborative-code-editor"
           h3="RTC code Editor"
           p="Collaborative Socket Editor"
         />
