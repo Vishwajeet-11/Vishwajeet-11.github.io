@@ -1,4 +1,4 @@
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/vishwajeetBackend_resume.pdf";
 import githubDark from "../../assets/github-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import heroImg from "../../assets/hero-img1.png";

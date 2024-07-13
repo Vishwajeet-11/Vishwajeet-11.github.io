@@ -1,5 +1,5 @@
+import blog from '../../assets/blog.jpeg';
 import fitLift from '../../assets/fitlift.png';
-import hipsster from '../../assets/hipsster.png';
 import rtc from '../../assets/rtc.jpeg';
 import viberr from '../../assets/viberr.jpeg';
 import ProjectCard from '../../common/ProjectCard';
@@ -23,10 +23,10 @@ function Projects() {
           p="Collaborative Socket Editor"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={blog}
+          link="https://github.com/Vishwajeet-11/MERN_Blog_Application"
+          h3="BLOG APP"
+          p="Tech Blogging App"
         />
         <ProjectCard
           src={fitLift}
