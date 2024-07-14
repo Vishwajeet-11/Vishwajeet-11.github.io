@@ -1,11 +1,11 @@
-import CV from "../../assets/vishwajeetBackend_resume.pdf";
 import githubDark from "../../assets/github-dark.svg";
 import githubLight from "../../assets/github-light.svg";
-import heroImg from "../../assets/hero-img1.png";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import moon from "../../assets/moon.svg";
+import heroImg from "../../assets/Screenshot_2024-07-14_052136-removebg-preview.png";
 import sun from "../../assets/sun.svg";
+import CV from "../../assets/vishwajeetBackend_resume.pdf";
 // import twitterDark from '../../assets/twitter-dark.svg';
 // import twitterLight from '../../assets/twitter-light.svg';
 import { useTheme } from "../../common/ThemeContext";
@@ -25,6 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
+          style={{ width: '500px', height: 'auto' }}
           alt="Profile picture of Vishwajeet Bharadia"
         />
         <img

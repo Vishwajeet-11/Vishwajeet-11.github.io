@@ -8,7 +8,8 @@
   min-height: 500px;
 
   .hero {
-    max-width: 200px;
+    max-width: 250px;
+    width: 250px;
   }
 
   span {
@@ -24,6 +25,7 @@
       }
     }
   }
+
 
   a {
     width: fit-content;
@@ -84,8 +86,8 @@
     justify-content: space-evenly;
 
     .hero {
-      max-width: 350px;
-      width: 350px;
+      max-width: 400px;
+      width: 400px;
     }
   }
 }
@@ -93,8 +95,8 @@
 @media (width >= 1400px) {
   .container {
     .hero {
-      max-width: 400px;
-      width: 400px;
+      max-width: 500px;
+      width: 500px;
     }
   }
 }
